@@ -3,7 +3,7 @@ import partyMaster_Style from '../../styles/partyMaster.module.css'
 
 let party_data = [];
 
-function partyMaster() {
+function PartyMaster() {
 
      const [btn_disable, setBtn_disable] = useState(false)
      const [show_list, setShow_list] = useState(false)
@@ -111,4 +111,4 @@ function partyMaster() {
      )
 }
 
-export default partyMaster
+export default PartyMaster
