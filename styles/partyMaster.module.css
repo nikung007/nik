@@ -1,0 +1,77 @@
+.partyMaster_Style_main_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.partyMaster_Style_box{
+    position: relative;
+    width: 300px;
+}
+.partyMaster_Style_data h2{
+    text-align: center;
+    margin: 0;
+}
+.party_disable{
+    position: absolute;
+    height: 55%;
+    width: 96%;
+    background-color: lightgray;
+    opacity: 0.2;
+    left: 6px;
+    top: 55px;
+    cursor: no-drop;
+    border-radius: 5px;
+}
+.partyMaster_Style_name, .partyMaster_Style_phone, .partyMaster_Style_select{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.partyMaster_Style_name input, .partyMaster_Style_phone input{
+    height: 20px;
+    width: 71%;
+}
+.partyMaster_Style_select{
+    margin-bottom: 15px;
+}
+.partyMaster_Style_select select{
+    height: 28px;
+    width: 73.6%;
+}
+.partyMaster_Style_button{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.partyMaster_disable{
+    background-color: lightgray !important;
+}
+.partyMaster_Style_button button{
+    background-color: #8bcdf4;
+    border: none;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(107, 107, 108, 0.05), 0 1px 3px 0 rgb(63 63 68 / 15%);
+}
+.partyMaster_Style_button button:hover{
+    background-color: #1ba9fb;
+    box-shadow: none;
+}
+.partyMaster_Style_phone input[type=number]::-webkit-inner-spin-button, 
+.partyMaster_Style_phone input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.party_table h2{
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+.party_table td,.party_table th{
+    border: 1px solid black;
+    padding: 10px;
+}

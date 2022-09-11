@@ -1,0 +1,79 @@
+.master_button{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-left: 20px;
+}
+.master_button button{
+    margin: 0 10px;
+    background-color: #89dfff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgb(63 63 68 / 5%), 0 1px 3px 0 rgb(63 63 68 / 15%);
+}
+.master_button button:hover{
+    /* border: 0.5px solid gray; */
+    background-color: #2fb3ff;
+}
+.master_button_submenu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 47px;
+    left: 80px;
+    border-radius:0 0 10px 10px;
+    background-color: #89dfff;
+}
+.master_button_submenu button{
+    width: 100%;
+    background: none;
+    margin: 2px 0;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.master_button_petasubmenu{
+    display: flex;
+    align-items: center;
+}
+.master_button_submenu button:hover{
+    /* border: 0.5px solid gray; */
+    background-color: #00b6f8;
+}
+.master_button_petasubmenu_all{
+    position: absolute;
+    width: 81%;
+    background-color: #00b6f8;
+    right: -100px;
+    border-radius: 0 0 10px 0;
+}
+.master_button_petasubmenu_all button:hover{
+    background-color: #44cdff;
+
+}
+.transation_button_submenu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 47px;
+    left: 205px;
+    border-radius:0 0 10px 10px;
+    background-color: #89dfff;
+}
+.transation_button_submenu button{
+    width: 100%;
+    background: none;
+    margin: 2px 0;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.transation_button_submenu button:hover{
+    /* border: 0.5px solid gray; */
+    background-color: #00b6f8;
+}
